@@ -20,8 +20,8 @@ My portfolio website which currently has technologies, projects, and a contact m
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/PPilot2/profile-website.git
+cd profile-website
 ```
 
 2. Create a virtual environment and activate it:
@@ -39,15 +39,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Create a `static` folder in your project directory and place your image files (e.g., `rust.png`) inside.
-2. In the `templates` folder, create an `index.html` file and paste the provided HTML structure for the projects.
-3. Run the Flask app:
+1. Run the Flask app:
 
 ```bash
 flask run
 ```
 
-4. Visit the app in your browser at `http://127.0.0.1:5000/`.
+2. Visit the app in your browser at `http://127.0.0.1:5000/`.
 
 ## Directory Structure
 
@@ -65,8 +63,4 @@ flask run
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This `README.md` gives a basic overview of how to set up, use, and structure your Flask application. It also includes instructions for running the app, adding project boxes, and details on the required files.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE License - see the [LICENSE](LICENSE) file for details.
