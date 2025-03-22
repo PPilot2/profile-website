@@ -123,9 +123,6 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-
-.technology-square img {
-}
 #contact {
     display: flex;
     justify-content: left;
