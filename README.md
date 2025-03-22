@@ -1,15 +1,11 @@
-Here's a basic `README.md` template for your Python Flask app that includes the HTML and CSS you've used:
+# Portfolio Website
 
----
-
-# Flask Project Portfolio
-
-A simple portfolio web application built with Python Flask. This app displays a set of project boxes in a row, with the ability to overflow onto the next row when more projects are added.
+My portfolio website which currently has technologies, projects, and a contact me section.
 
 ## Features
 
 - Dynamic project display
-- Responsive design (projects overflow onto the next row as needed)
+- Responsive design
 - Clean layout with hover effects on each project
 - On-click redirection to individual project pages
 
@@ -17,7 +13,7 @@ A simple portfolio web application built with Python Flask. This app displays a 
 
 - Python 3.x
 - Flask
-- HTML/CSS knowledge (for frontend styling)
+- HTML/CSS
 
 ## Installation
 
