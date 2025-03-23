@@ -33,10 +33,6 @@ body, html {
     text-decoration: none;
     color: white;
 }
-
-#top-content h1 {
-    font-size: 60px;
-}
 #top-content p {
     font-size: 24px;
     width: 40%;
@@ -62,17 +58,22 @@ body, html {
 
 #top-content-text {
     display: flex;
-    align-items: center;
-    gap: 60px; /* Adds space between text and profile image */
-    position: relative;
-    padding-left: 50px;
-    flex: 1;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 2845px) {
+    #top-content-text {
+        width: 60%;
+    }
 }
 
 #top-content-text h1 {
     font-size: 60px;
     color: white;
-    font-family: "Roboto Slab", serif;  
+    font-family: "Roboto Slab", serif;
+    width: 60%;
 }
 
 #profile-image {
@@ -80,21 +81,25 @@ body, html {
     width: 350px;
     background-color: #ACCBE1;
     position: absolute;
-    top: 45%;
+    top: 50%;
     transform: translateY(-50%);
     padding: 20px;
     box-sizing: border-box;
-    left: 65%; /* Adjusts position to the middle of the gradient section */
-    transform: translateX(-50%) translateY(-50%); /* Centers the profile image */
+    left: 66%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #left {
     flex: 1; /* Ensures it takes up available space */
+    margin-right: 20px; 
 }
 
 #right {
-    display: flex;
-    align-items: center;
+    flex-shrink: 0;
 }
 #technologies {
     width: 100%;
@@ -187,7 +192,7 @@ body, html {
     justify-content: center; /* Center the boxes horizontally */
     align-items: flex-start; /* Align the boxes to the top of the container */
     gap: 30px; /* Space between the boxes */
-    width: 80%; /* Restrict the container to 60% of the screen width */
+    width: 90%; /* Restrict the container to 60% of the screen width */
     padding: 80px 0;
     flex-wrap: wrap; /* Allow the boxes to wrap onto the next line */
 }
